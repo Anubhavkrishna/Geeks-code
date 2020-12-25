@@ -1,0 +1,37 @@
+Spring Framework In Java( Spring core)
+
+>Dependency Injection/IOC- A method of implementing the idea of loose coupling among the different objects of 
+different classes.
+Reducing the dependency of one object upon another.
+
+> use of spring framework/Inversion of Control
+The changes will be made into the xml file without changing the java code, so the need to recompile 
+the java code is minimised.
+- object creation will be taken care by spring framework. 
+  - we have a config file which contains a list of classes whose objects has to be created.
+  - IOC container- holds the objects of the classes defined in the config file.
+     reads the config file, creates the object and stores it.
+  - the objects in the ioc container are referred to as beans.
+> IOC container
+   2 types of IOC container
+   1) Application Context.
+   2) Bean Factory (A subset of Application context)
+  - both of the above are interfaces.
+> the getbean() method used to get the object created by the IOC container.
+
+> Dependency Injection- the data or the value of the variables is referred as the dependency.
+ way to avoid hardcoding, instead of hardcoding the data, the data is passed using the xml file.
+ dependency types- literal, collection and objective dependency.
+ 
+
+  -- setter injection- dependency injection using setter method defined by the developer
+   using the property tag
+  -- constructor injection-
+   using the constructor-arg tag
+
+> Creating object using new keyword is a method of using tight coupling. 
+
+  Student(String name, int id){
+  this.id=id;
+  studentname=name;
+                              }
