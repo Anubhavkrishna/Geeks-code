@@ -1,0 +1,9 @@
+Use Case and Goals of Spring
+
+  Spring is used for  for Developement of Enterprise Java Applications which makes it more easy to implement.
+
+Goals
+
+  >> Lightweight development with POJO(Plain Old Java Objects)
+  >> Promote loose coupling through IOC and Dependency Injection
+  >> Declarative programming with AOP(Aspect Oriented Programming)
